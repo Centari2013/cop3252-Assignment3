@@ -1,37 +1,39 @@
-import java.util.Scanner;
-import javax.swing.*;
 public class Knight {
-    public static void main(String[] args) {
-        String name;
-        int health, age, gold, battles;
+    String name;
+    int health, age, gold, battles;
 
-        Scanner input = new Scanner(System.in);
+    void setName(String n){
+        name = n;
+    }
+    String getName(){
+        return name;
+    }
 
-        System.out.print("Enter your knight's full name: ");
-        name = input.nextLine();
+    void setHealth(int h){
+        health = h;
+    }
+    int getHealth(){
+        return health;
+    }
 
-        System.out.print("Enter your knight's initial health: ");
-        health = input.nextInt();
+    void setAge(int a){
+        age = a;
+    }
+    int getAge(){
+        return age;
+    }
 
-        System.out.print("Enter your knight's age: ");
-        age = input.nextInt();
+    void setGold(int g){
+        gold = g;
+    }
+    int getGold(){
+        return gold;
+    }
 
-        System.out.print("Enter your knight's initial gold: ");
-        gold = input.nextInt();
-
-        System.out.print("Enter your knight's battles: ");
-        battles = input.nextInt();
-
-        float avg_gold_per_battle = (float) gold / battles;
-
-        System.out.printf("+-[ %s ]------------------------------------------------+%n" +
-                        " | Health  : %d%n" +
-                        " | Age     : %d%n" +
-                        " | Battles : %d%n" +
-                        " | Gold    : %d  (Avg. Gold per Battle : %.2f)%n" +
-                        "+-------------------------------------------------+",
-                name, health, age, battles, gold, avg_gold_per_battle);
-
-        input.close();
+    void setBattles(int b){
+        battles = b;
+    }
+    int getBattles(){
+        return battles;
     }
 }

@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="833320c6-e1fb-46bb-8837-7993bd26e8e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KnightDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stars.java" afterDir="false" />
+    <list default="true" id="833320c6-e1fb-46bb-8837-7993bd26e8e5" name="Changes" comment="rah">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KnightDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KnightDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stars.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +44,10 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propCompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -56,10 +60,15 @@
       <option name="presentableId" value="Default" />
       <updated>1674757676299</updated>
       <workItem from="1674757676662" duration="688000" />
+      <workItem from="1674854717143" duration="5151000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rah" />
+    <option name="LAST_COMMIT_MESSAGE" value="rah" />
   </component>
 </project>
